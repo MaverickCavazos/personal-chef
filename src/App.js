@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { Browser as Router, Routers, Route, Navigate } from "react-router-dom";
+import { Browser as Router, Routes, Route, Navigate } from "react-router-dom";
 import Nav from './components/Nav';
 import About from './components/About';
 import Home from './components/Home';
@@ -12,20 +11,17 @@ import Gallery from './components/Gallery';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Nav/>
+        <Routes>
+          <Route path="/" exact element={ <Home/> } />
+          <Route path="/WhatIDo" exact element= { <About/> } />
+          <Route path="/Gallery" exact element= { <Gallery/> } />
+          <Route path="/Recipes" exact element= {<Recipes/> } />
+          <Route path="/Contact" exact element= {<Contact/> } />
+        </Routes>
+      </Router>
+      <Footer></Footer>
     </div>
   );
 }
