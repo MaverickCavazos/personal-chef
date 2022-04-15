@@ -1,5 +1,5 @@
 import './App.css';
-import { Browser as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Nav from './components/Nav';
 import About from './components/About';
 import Home from './components/Home';
@@ -19,10 +19,11 @@ function App() {
           <Route path="/Gallery" exact element= { <Gallery/> } />
           <Route path="/Recipes" exact element= {<Recipes/> } />
           <Route path="/Contact" exact element= {<Contact/> } />
+          <Route path="/" element={<Navigate replace to="/" />} />
         </Routes>
       </Router>
       <Footer></Footer>
-    </div>
+  </div>
   );
 }
 
