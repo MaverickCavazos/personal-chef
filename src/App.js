@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-import About from './components/About';
+import Homepage from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
-import recipes from './components/recipes';
-import whatido from './components/whatido';
+import Recipes from './components/Recipes';
+import WhatIDo from './components/whatido';
 
 function App() {
  
