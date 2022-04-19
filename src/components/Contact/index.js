@@ -10,6 +10,12 @@ function Contact () {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    Array.from(document.querySelectorAll("input")).forEach(
+      input => (input.value = "")
+    );
+   const message = document.getElementById('message');
+   message.value = '';
+
     if (!errorMessage) {
       setFormState({ [e.target.name]: e.target.value });
       console.log('Form', formState);
@@ -36,18 +42,18 @@ function Contact () {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
-      <form metod="post" name="emailform" action="mailto:folukeolaoye97@gmail.com" id="contact-form" onSubmit={handleSubmit}>
+      <form action="https://formsubmit.co/foluke@gmail.com" method="POST" id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name" required/>
         </div>
         <div>
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          <input type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder="Email" required/>
         </div>
         <div>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea id="message" name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder="Message"/>
         </div>
         {errorMessage && (
           <div>
