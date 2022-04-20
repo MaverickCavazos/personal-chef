@@ -72,3 +72,11 @@
   width: 90px;
 
 }
+
+
+.home-page {
+  background-image:  url("./components/images/home-page.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
