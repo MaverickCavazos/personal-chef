@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Nav from './components/Nav';
-import About from './components/About'; 
+import About from './components/About';
 import Home from './components/Home';
 import Recipes from './components/Recipes';
 /* import Footer from './components/Footer'; */
@@ -15,11 +15,18 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" exact element={<Home />} />
+<<<<<<< HEAD
           
              <Route path="/WhatIDo" exact element= { <About/> } />
           {/* <Route path="/Gallery" exact element= { <Gallery/> } />  */}
             <Route path="/Recipes" exact element={<Recipes />} />
           
+=======
+          <Route path="/WhatIDo" exact element={<About />} />
+          {/* <Route path="/Gallery" exact element={<Gallery />} /> */}
+          <Route path="/Recipes" exact element={<Recipes />} />
+
+>>>>>>> 9dfc7a9ebd9a5856b50b6d7593d47c053e91f366
           <Route path="/Contact" exact element={<Contact />} />
           <Route path="/" element={<Navigate replace to="/" />} />
         </Routes>
