@@ -36,7 +36,7 @@ function Recipes() {
               src={Recipe2} /* will change to recipe2 */
               id="recipeimg"
               className="my-2"
-              style={{ height: "auto", width: "33%", borderRadius: "5px" }}
+              style={{ height: "33%", width: "33%", borderRadius: "5px" }}
             />
           </div>
           <ul>
@@ -64,7 +64,7 @@ function Recipes() {
               src={Recipe3} /* will change to recipe3 */
               id="recipeimg"
               className="my-2"
-              style={{ height: "auto", width: "33%", borderRadius: "5px" }}
+              style={{ height: "33%", width: "33%", borderRadius: "5px" }}
             />
           </div>
           <ul>
