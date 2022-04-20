@@ -15,18 +15,11 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" exact element={<Home />} />
-<<<<<<< HEAD
+
           
              <Route path="/WhatIDo" exact element= { <About/> } />
           {/* <Route path="/Gallery" exact element= { <Gallery/> } />  */}
             <Route path="/Recipes" exact element={<Recipes />} />
-          
-=======
-          <Route path="/WhatIDo" exact element={<About />} />
-          {/* <Route path="/Gallery" exact element={<Gallery />} /> */}
-          <Route path="/Recipes" exact element={<Recipes />} />
-
->>>>>>> 9dfc7a9ebd9a5856b50b6d7593d47c053e91f366
           <Route path="/Contact" exact element={<Contact />} />
           <Route path="/" element={<Navigate replace to="/" />} />
         </Routes>
