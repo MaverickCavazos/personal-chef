@@ -73,6 +73,11 @@
 
 }
 
+.logo:hover {
+  transition-duration: .3s;
+  transform: translate(0, -2px);
+}
+
 
 .home-page {
   background-image:  url("./components/images/home-page.jpg");
