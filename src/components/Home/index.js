@@ -9,7 +9,7 @@ function Home() {
     <div >
       <h1 id="about"></h1>
     </div>
-      <div id="about-text" className="my-2">
+      <div id="about-text" className="my-2 about-text">
         <p>
         PUT SOMETHING Here
          </p>
