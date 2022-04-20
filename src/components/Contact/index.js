@@ -42,7 +42,7 @@ function Contact () {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
-      <form action="https://formsubmit.co/foluke@gmail.com" method="POST" id="contact-form" onSubmit={handleSubmit}>
+      <form action="https://formsubmit.co/folukeolaoye97@gmail.com" method="POST" id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name" required/>
