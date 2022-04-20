@@ -40,6 +40,17 @@ display: table;
 clear: both;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
