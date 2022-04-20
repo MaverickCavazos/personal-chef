@@ -60,7 +60,7 @@
 }
 
 .App {
-  background-color: #2e3440;
+  background-color: #35442f;
   overflow: hidden;
   background-position: center bottom;
   min-height: 100vh;
@@ -80,5 +80,102 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
+
+.about-text {
+  padding-top: 50px;
+}
+
+/*contact section */
+
+form {
+  width: 70%;
+  display: inline-block;
+}
+
+.form-section {
+  display: block;
+  margin-left: 36.5%;
+  margin-top: 40px;
+
+}
+
+input {
+  font-size: 1rem;
+  padding: 6px;
+  padding-right: 76px;
+  border: 1px solid;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  margin: 5px;
+}
+
+.input-text {
+  background: #d6d6d6;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 12pt;
+  margin-bottom: 3px;
+  outline: none;
+  padding: 10px 15px;
+  width: 60%;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+  width: 45%;
+  height: 13vh;
+  margin: 5px;
+}
+
+.form-button {
+  color: #fff;
+  background-color: #333333;
+  transition-duration: 1s;
+  padding: 8px 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  border:none;
+}
+
+.section-header {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.section-h2 {
+  padding-bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.form-button:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+/* footer style */
+
+.social-icons:hover {
+  transition-duration: .3s;
+  transform: translate(0, -5px);
+}
+
+.social-container {
+  float:left;
+}
+
+.copy-right {
+  padding-top: 12px;
+  width: 94%;
+}
+

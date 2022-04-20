@@ -10,7 +10,7 @@ function Home() {
       <h1 id="about"></h1>
 
     </div>
-      <div id="about-text" className="about-text">
+      <div id="about-text" className="my-2 about-text">
         <p>
         Welcome To The Chef Foluke Experience
          </p>
