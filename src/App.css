@@ -48,3 +48,23 @@ clear: both;
     transform: rotate(360deg);
   }
 }
+
+#img1{
+  height: 400px;
+  border-radius: 10%;
+  margin-right: 85px;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+#img2{
+  background-image: url("./components/images/cooking-background.jpg") ;
+  background-size: cover;
+}
+
+#chefSum{
+ text-align: center;
+ padding-top: 20px;
+ font-size: 18px;
+ padding-right: 25px;
+}
