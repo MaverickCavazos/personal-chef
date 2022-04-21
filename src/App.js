@@ -15,10 +15,13 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/WhatIDo" exact element={<About />} />
-          {/* <Route path="/Gallery" exact element={<Gallery />} /> */}
-          <Route path="/Recipes" exact element={<Recipes />} />
-          <Route path="/Contact" exact element={<Contact />} />
+
+
+          
+             <Route path="/WhatIDo" exact element= { <About/> } />
+          {/* <Route path="/Gallery" exact element= { <Gallery/> } />  */}
+            <Route path="/Recipes" exact element={<Recipes />} />
+        <Route path="/Contact" exact element={<Contact />} />
           <Route path="/" element={<Navigate replace to="/" />} />
         </Routes>
       </Router>
