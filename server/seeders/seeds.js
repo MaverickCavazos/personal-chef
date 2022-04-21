@@ -18,8 +18,13 @@ db.once('open', async () => {
     userData.push({ username, email, password });
   }
 
-  const createdUsers = await User.collection.insertMany(userData);
+  userData.push({ username:'maverick', email: 'Mav@gmail.com', password: 'pass123' })
+  userData.push({ username:'joe', email: 'moma@gmail.com', password: '12345' })
 
+  await User.collection.insertMany(userData);
+
+  const createdUsers = await User.find();
+  console.log(createdUsers);
 
 
   // create thoughts
@@ -27,8 +32,8 @@ db.once('open', async () => {
   for (let i = 0; i < 100; i += 1) {
     const thoughtText = faker.lorem.words(Math.round(Math.random() * 20) + 1);
 
-    const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
-    const { username, _id: userId } = createdUsers.ops[randomUserIndex];
+    const randomUserIndex = Math.floor(Math.random() * createdUsers.length);
+    const { username, _id: userId } = createdUsers[randomUserIndex];
 
     const createdThought = await Thought.create({ thoughtText, username });
 

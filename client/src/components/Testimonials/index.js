@@ -28,7 +28,7 @@ const Testimonials = () => {
           ) : (
             <ThoughtList
               thoughts={thoughts}
-              title="Some Feed for Thought(s)..."
+              title="Testimonials"
             />
           )}
         </div>

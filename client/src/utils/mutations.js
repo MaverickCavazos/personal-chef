@@ -31,10 +31,6 @@ export const ADD_THOUGHT = gql`
       thoughtText
       createdAt
       username
-      reactionCount
-      reactions {
-        _id
-      }
     }
   }
 `;
