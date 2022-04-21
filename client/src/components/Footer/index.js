@@ -5,7 +5,7 @@ import Email from "../images/Email.png";
 function Footer() {
   return (
     <footer>
-      <div class="footer col-lg-6 pos-middle text-left">
+      <div className="footer col-lg-6 pos-middle text-left">
         <div className="social-container">
           <a href="https://instagram.com/chef_foluke2.0?igshid=YmMyMTA2M2Y">
             <img className="social-icons" alt="instagram" src={Instagram}

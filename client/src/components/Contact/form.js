@@ -45,7 +45,7 @@ function ContactForm() {
 
   return (
     <section className='form-section'>
-      <form action="https://formsubmit.co/Folukeolaoye97@gmail.com" method="POST" id="contact-form" onSubmit={handleSubmit}>
+      <form className="form-contact" action="https://formsubmit.co/Folukeolaoye97@gmail.com" method="POST" id="contact-form" onSubmit={handleSubmit}>
         <div>
           
           <input className="input-text" type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name" required/>

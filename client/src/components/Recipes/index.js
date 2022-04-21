@@ -7,8 +7,8 @@ function Recipes() {
 
   return (
     <section>
-      <div class="row">
-        <div class="column" id="recipe-lists">
+      <div className="row">
+        <div className="column" id="recipe-lists">
           <h1>Perfect Parfait</h1>
           <br></br>
           <div>
@@ -28,7 +28,7 @@ function Recipes() {
             <li>1 tbsp of raw oats</li>
           </ul>
         </div>
-        <div class="column" id="recipe-lists">
+        <div className="column" id="recipe-lists">
           <h1>Grits & Shrimp</h1>
           <br></br>
           <div>
@@ -56,7 +56,7 @@ function Recipes() {
             <li>1 teaspoon chopped parsley</li>
           </ul>
         </div>
-        <div class="column" id="recipe-lists">
+        <div className="column" id="recipe-lists">
           <h1>Mixed Berry Salad</h1>
           <br></br>
           <div>
