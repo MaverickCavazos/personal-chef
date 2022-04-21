@@ -26,7 +26,7 @@ The end goal of this application was to display Folukes body of work and help cu
 which takes you through folukes story. 
 Our end goal for this application is to have user Login using our login section and leave new testimonials that update in real-time with the username and date.
 
-
+Image of the deployed app ![Screenshot](./client/src/components/images/readme.png)
 
 
 link to deployed app 
