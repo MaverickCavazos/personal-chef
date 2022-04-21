@@ -22,8 +22,5 @@
   "homepage": "https://github.com/MaverickCavazos/personal-chef#readme",
   "devDependencies": {
     "concurrently": "^7.1.0"
-  },
-  "dependencies": {
-    "pure-react-carousel": "^1.28.1"
   }
 }

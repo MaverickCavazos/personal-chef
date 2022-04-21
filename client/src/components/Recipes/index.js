@@ -1,137 +1,84 @@
 import React from "react";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
-import Recipe1 from "../images/Morningfuel.jpg";
-import Recipe2 from "../images/NYStrip.jpg";
-import Recipe3 from "../images/Snowcrablegs.jpg";
-import Recipe4 from "../images/veggiemixedsalad.jpg";
-import Recipe5 from "../images/wholesnapper.jpg";
+import Recipe1 from "../images/perfectparfait.jpg";
+import Recipe2 from "../images/gritsshrimp.jpg";
+import Recipe3 from "../images/mixedberrysalad.jpg";
 
-export default class extends React.Component {
-  render() {
-    return (
-      <CarouselProvider
-        naturalSlideWidth={100}
-        naturalSlideHeight={125}
-        totalSlides={5}
-      >
-        <div id="main-container">
-          <Slider>
-            <Slide index={0}>
-              <div id="content">
-                <br></br>
-                <img
-                  className="homeLeft"
-                  src={Recipe1}
-                  id="recipeimg"
-                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
-                />
-                <div className="homeRight">
-                  <h1>Morning Fuel</h1>
-                  <br></br>
-                  <h3>
-                    Overnight oats soaked in coconut milk, cinnamon and raw
-                    honey topped with fresh berries and granola. Let's not skip
-                    the most important meal of the day!
-                  </h3>
-                </div>
-              </div>
-            </Slide>
-            <Slide index={1}>
-              <div id="content">
-                <br></br>
-                <img
-                  className="homeLeft"
-                  src={Recipe2}
-                  id="recipeimg"
-                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
-                />
-                <div className="homeRight">
-                  <h1>NY Strip</h1>
-                  <br></br>
-                  <h3>
-                    NY Strip Steak topped with blistered tomatoes and a side of
-                    roasted marble and sweet potato hash with a sunny side up
-                    egg and everything aoli drizzle!
-                  </h3>
-                </div>
-              </div>
-            </Slide>
-            <Slide index={2}>
-              <div id="content">
-                <br></br>
-                <img
-                  className="homeLeft"
-                  src={Recipe3}
-                  id="recipeimg"
-                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
-                />
-                <div className="homeRight">
-                  <h1>Snow Crab Legs</h1>
-                  <br></br>
-                  <h3>
-                    Roasted garlic marble potatoes with grilled red peppers,
-                    zucchini and squash! Added citrus garlic butter. Great
-                    dinner for any day of the week.
-                  </h3>
-                </div>
-              </div>
-            </Slide>
-            <Slide index={3}>
-              <div id="content">
-                <br></br>
-                <img
-                  className="homeLeft"
-                  src={Recipe4}
-                  id="recipeimg"
-                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
-                />
-                <div className="homeRight">
-                  <h1>7-Veggie Mixed Salad</h1>
-                  <br></br>
-                  <h3>
-                    7 veggie mixed salad with grilled salmon marinated in hot
-                    honey, fresh garlic, soy sauce, scallions and S&P! Topped
-                    with fresh tomatoes and scallions. If you're cutting carbs,
-                    this dish is for you. Very flavorful dish!
-                  </h3>
-                </div>
-              </div>
-            </Slide>
-            <Slide index={4}>
-              <div id="content">
-                <br></br>
-                <img
-                  className="homeLeft"
-                  src={Recipe5}
-                  id="recipeimg"
-                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
-                />
-                <div className="homeRight">
-                  <h1>Whole Snapper</h1>
-                  <br></br>
-                  <h3>
-                    Dinner is served: whole snapper with sweet onions, shallots,
-                    bell pepper trio, whole roasted garlic cloves, and thyme,
-                    the fresh stuff not dried and some spices! Stewed spinach
-                    wtih caramelized sweet onion, nutmeg and coconut milk! A
-                    side of white rice with coconut milk as well. Dish is also
-                    garnished with cilantro.
-                  </h3>
-                </div>
-              </div>
-            </Slide>
-          </Slider>
+function Recipes() {
+
+  return (
+    <section>
+      <div className="row">
+        <div className="column" id="recipe-lists">
+          <h1>Perfect Parfait</h1>
+          <br></br>
+          <div>
+            <img
+              src={Recipe1}
+              id="recipeimg"
+              className="my-2"
+              style={{ height: "auto", width: "33%", borderRadius: "5px" }}
+            />
+          </div>
+          <ul>
+            <li>3/4 cups of cooked tri-color quinoa</li>
+            <li>4 oz of vanilla greek yogurt</li>
+            <li>1/2 pint of fresh mixed berries</li>
+            <li>2 tbsp of confection sugar</li>
+            <li>1 tbsp of honey</li>
+            <li>1 tbsp of raw oats</li>
+          </ul>
         </div>
-        <ButtonBack>Back</ButtonBack>
-        <ButtonNext>Next</ButtonNext>
-      </CarouselProvider>
-    );
-  }
+        <div className="column" id="recipe-lists">
+          <h1>Grits & Shrimp</h1>
+          <br></br>
+          <div>
+            <img
+              src={Recipe2} /* will change to recipe2 */
+              id="recipeimg"
+              className="my-2"
+              style={{ height: "33%", width: "33%", borderRadius: "5px" }}
+            />
+          </div>
+          <ul>
+            <h3>Grits:</h3>
+            <li>2 cups (473 mL) chicken stock or broth, low sodium</li>
+            <li>2 cups (473 mL) whole milk</li>
+            <li>1 cup (197 g) stone-ground grits</li>
+            <li>3 tablespoon (42 g) unsalted butter</li>
+            <li>2 cups (226 g) sharp white cheddar, shredded</li>
+            <h3>Shrimp:</h3>
+            <li>½ lb thick-cut bacon</li>
+            <li>2 lbs large shrimp (15-20 count), peeled and de-veined</li>
+            <li>½ teaspoon red pepper flakes</li>
+            <li>1 large garlic clove, minced</li>
+            <li>Juice of ½ lemon</li>
+            <li>Kosher salt and Freshly Cracked Black Pepper</li>
+            <li>1 teaspoon chopped parsley</li>
+          </ul>
+        </div>
+        <div className="column" id="recipe-lists">
+          <h1>Mixed Berry Salad</h1>
+          <br></br>
+          <div>
+            <img
+              src={Recipe3} /* will change to recipe3 */
+              id="recipeimg"
+              className="my-2"
+              style={{ height: "33%", width: "33%", borderRadius: "5px" }}
+            />
+          </div>
+          <ul>
+            <li>Feta</li>
+            <li>Spinach and free greens mix</li>
+            <li>Blueberries, Strawberries, & Cranberries</li>
+            <li>Balsamic Reduction</li>
+            <li>Candid pecans</li>
+            <li>Optional: Berry vinaigrette dressing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
 }
+
+export default Recipes
