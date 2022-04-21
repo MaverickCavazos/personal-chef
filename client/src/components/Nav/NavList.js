@@ -12,6 +12,10 @@ export const NavList = [
         url: "/Recipes"
     },
     {
+        name: "Testimonials",
+        url: "/Testimonials"
+    },
+    {
         name: "Contact Me",
         url: "/Contact"
     }
