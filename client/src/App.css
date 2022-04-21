@@ -197,11 +197,6 @@ clear: both;
   background-color: white;
 }
 
-
-#main-container {
-  
-} 
-
 #content {
   width:75%;
   display: inline-flex;
@@ -211,6 +206,7 @@ clear: both;
   color: white;
   letter-spacing: .2rem;
   }
+  
 .homeLeft{
   float:left;
   width:50%;

@@ -27,13 +27,12 @@ export default class extends React.Component {
               <div id="content">
                 <br></br>
                 <img
-                  class="homeLeft"
+                  className="homeLeft"
                   src={Recipe1}
                   id="recipeimg"
-                  className="my-2"
                   style={{ height: "33%", width: "33%", borderRadius: "5px" }}
                 />
-                <div class="homeRight">
+                <div className="homeRight">
                   <h1>Morning Fuel</h1>
                   <br></br>
                   <h3>
@@ -48,20 +47,19 @@ export default class extends React.Component {
               <div id="content">
                 <br></br>
                 <img
-                  class="homeLeft"
+                  className="homeLeft"
                   src={Recipe2}
                   id="recipeimg"
-                  className="my-2"
-                  style={{ height: "25%", width: "25%", borderRadius: "5px" }}
+                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
                 />
-                <div class="homeRight">
-                <h1>NY Strip</h1>
-                <br></br>
-                <h3>
-                  NY Strip Steak topped with blistered tomatoes and a side of
-                  roasted marble and sweet potato hash with a sunny side up egg
-                  and everything aoli drizzle!
-                </h3>
+                <div className="homeRight">
+                  <h1>NY Strip</h1>
+                  <br></br>
+                  <h3>
+                    NY Strip Steak topped with blistered tomatoes and a side of
+                    roasted marble and sweet potato hash with a sunny side up
+                    egg and everything aoli drizzle!
+                  </h3>
                 </div>
               </div>
             </Slide>
@@ -69,13 +67,12 @@ export default class extends React.Component {
               <div id="content">
                 <br></br>
                 <img
-                  class="homeLeft"
+                  className="homeLeft"
                   src={Recipe3}
                   id="recipeimg"
-                  className="my-2"
-                  style={{ height: "25%", width: "25%", borderRadius: "5px" }}
+                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
                 />
-                <div class="homeRight">
+                <div className="homeRight">
                   <h1>Snow Crab Legs</h1>
                   <br></br>
                   <h3>
@@ -90,13 +87,12 @@ export default class extends React.Component {
               <div id="content">
                 <br></br>
                 <img
-                  class="homeLeft"
+                  className="homeLeft"
                   src={Recipe4}
                   id="recipeimg"
-                  className="my-2"
-                  style={{ height: "25%", width: "25%", borderRadius: "5px" }}
+                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
                 />
-                <div class="homeRight">
+                <div className="homeRight">
                   <h1>7-Veggie Mixed Salad</h1>
                   <br></br>
                   <h3>
@@ -112,13 +108,12 @@ export default class extends React.Component {
               <div id="content">
                 <br></br>
                 <img
-                  class="homeLeft"
+                  className="homeLeft"
                   src={Recipe5}
                   id="recipeimg"
-                  className="my-2"
-                  style={{ height: "25%", width: "25%", borderRadius: "5px" }}
+                  style={{ height: "33%", width: "33%", borderRadius: "5px" }}
                 />
-                <div class="homeRight">
+                <div className="homeRight">
                   <h1>Whole Snapper</h1>
                   <br></br>
                   <h3>
