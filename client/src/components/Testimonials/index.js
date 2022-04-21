@@ -16,7 +16,7 @@ const Testimonials = () => {
 
   return (
     <main>
-      <div className="flex-row justify-space-between">
+      <div className="flex-row-test justify-space-between">
         {loggedIn && (
           <div className="col-12 mb-3">
             <ThoughtForm />

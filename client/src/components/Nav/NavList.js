@@ -4,10 +4,6 @@ export const NavList = [
         url: "/WhatIDo"
     },
     {
-        name: "Gallery",
-        url: "/Gallery"
-    },
-    {
         name: "Recipes",
         url: "/Recipes"
     },
