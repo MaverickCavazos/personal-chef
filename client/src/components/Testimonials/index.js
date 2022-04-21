@@ -1,13 +1,13 @@
 import React from 'react';
-import ThoughtList from '../components/ThoughtList';
-import ThoughtForm from '../components/ThoughtForm';
+import ThoughtList from './ThoughtList';
+import ThoughtForm from './ThoughtForm';
 
 
-import Auth from '../utils/auth';
+import Auth from '../../utils/auth';
 import { useQuery } from '@apollo/client';
-import { QUERY_THOUGHTS, QUERY_ME_BASIC } from '../utils/queries';
+import { QUERY_THOUGHTS, QUERY_ME_BASIC } from '../../utils/queries';
 
-const Home = () => {
+const Testimonials = () => {
   const { loading, data } = useQuery(QUERY_THOUGHTS);
   const { data: userData } = useQuery(QUERY_ME_BASIC);
   const thoughts = data?.thoughts || [];
@@ -32,17 +32,9 @@ const Home = () => {
             />
           )}
         </div>
-        {loggedIn && userData ? (
-          <div className="col-12 col-lg-3 mb-3">
-            <FriendList
-              username={userData.me.username}
-             
-            />
-          </div>
-        ) : null}
       </div>
     </main>
   );
 };
 
-export default Home;
+export default Testimonials;

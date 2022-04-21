@@ -18,5 +18,9 @@ export const NavList = [
     {
         name: "Contact Me",
         url: "/Contact"
+    },
+    {
+        name: "Log In",
+        url: "/LogIn"
     }
 ]
