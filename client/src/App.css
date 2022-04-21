@@ -197,5 +197,23 @@ clear: both;
   background-color: white;
 }
 
+#content {
+  width:75%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: white;
+  letter-spacing: .2rem;
+  }
+  
+.homeLeft{
+  float:left;
+  width:50%;
+  }
 
-
+.homeRight{
+  float:right;
+  width:50%;
+  padding-left: 50px;
+  }
