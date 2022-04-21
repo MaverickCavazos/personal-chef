@@ -1,3 +1,24 @@
+
+.about-text{
+  text-align: center;
+  font-size: 75px;  
+  font-style:inherit;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding-top: 300px;
+  transform: translate(-50%, -15%);
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:  rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
+  padding: .5em 3em;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
 .App {
   text-align: center;
 }
@@ -51,12 +72,27 @@ clear: both;
   padding: 12px;
 }
 
+#recipe-lists {
+  color: white;
+}
+
+ li {
+   padding: 15px;
+   list-style-type: none;
+ }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media print {
+  .myimage {
+    image-resolution: 300dpi;
   }
 }
 

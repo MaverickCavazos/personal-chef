@@ -11,7 +11,7 @@ function Home() {
     </div>
       <div id="about-text" className="my-2 about-text">
         <p>
-        PUT SOMETHING Here
+        Welcome To The Chef Foluke Experience
          </p>
 
       </div>
