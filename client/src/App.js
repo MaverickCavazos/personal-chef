@@ -9,6 +9,7 @@ import Recipes from './components/Recipes';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
+import Login from './components/Login';
 /* import Gallery from './components/Gallery'; */
 
 const httpLink = createHttpLink({
@@ -33,6 +34,7 @@ function App() {
           <Route path="/Recipes" exact element={<Recipes />} />
           <Route path="/Testimonials" exact element={<Testimonials />} />
           <Route path="/Contact" exact element={<Contact />} />
+          <Route path="/Login" exact element={<Login />} />
           <Route path="/" element={<Navigate replace to="/" />} />
         </Routes>
       </Router>
