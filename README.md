@@ -28,5 +28,4 @@ Our end goal for this application is to have user Login using our login section 
 
 Image of the deployed app ![Screenshot](./client/src/components/images/readme.png)
 
-
 link to deployed app 
