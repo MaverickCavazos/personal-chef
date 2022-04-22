@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Personal-Chef
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## description
 
-## Available Scripts
+Small business are always looking for a way to get the word out and there and help their customers reach out to them. For this project we decided to help
+out a personal chef who was in need of a functionally webiste. Previously chef Foluke had a webiste built but was not fully functioning. So we decided to 
+help fill in that gap. 
+Foluke needed a website that represented her brand and what she does. To accomplish that we include serveral pages displaying her story, some of her recipes, and testimonials 
+of previous clients. This helped get the word out, but how do we help customers get into contact with her? For that we included all of her social media links in the footer and 
+a contact form that sends a email to her on submit.
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [Installation](#installation)
+* [Usage](#usage)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+Since this is a fully deployed application nothing more is needed than the heroku link to access the website. If you wish to pull down the repo and run it locally
+you first will have to run npm install in the client, server, and root directory to make sure you have all the dependancies. After this you can navigate to the root
+of the file and use npm run develop which will start up the server as well as the client.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The end goal of this application was to display Folukes body of work and help customers reach out to her. With this we create a fully functional and reactive navigation bar 
+which takes you through folukes story. 
+Our end goal for this application is to have user Login using our login section and leave new testimonials that update in real-time with the username and date.
 
-### `npm run build`
+Image of the deployed app ![Screenshot](./client/src/components/images/readme.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+link to deployed app 
